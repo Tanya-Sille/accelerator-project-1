@@ -1,4 +1,7 @@
-// https://swiperjs.com/get-started#installation
-// import Swiper from "swiper";
-// import {Navigation, Pagination} from "swiper/modules";
-// import 'swiper/css';
+import {contactListOrder} from './modules/contact-list.js';
+import {initTabs} from './modules/tabs-accordion.js';
+import './modules/slider-jury.js';
+import './modules/slider-review.js';
+
+contactListOrder();
+initTabs();

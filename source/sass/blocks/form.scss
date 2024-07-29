@@ -1,0 +1,18 @@
+.form {
+  background-color: $base-text-color;
+}
+
+.form__wrapper {
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+  @media (min-width: $tablet-width) {
+    padding: 60px 164px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-right: 0;
+    padding: 60px $desktop-padding;
+    width: 683px;
+  }
+}

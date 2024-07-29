@@ -1,0 +1,19 @@
+.faq {
+  background-color: $secondary-color;
+}
+
+.faq__question-item p {
+  display: none;
+}
+
+.faq__details {
+  display: none;
+
+  &--open {
+    display: block;
+  }
+}
+
+.faq__question--open + p {
+  display: block;
+}
