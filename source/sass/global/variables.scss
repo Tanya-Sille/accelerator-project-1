@@ -9,8 +9,9 @@ $error-color: #ff121f;
 $transparent: rgba(255, 255, 255, 0);
 
 $base-text-gradient: linear-gradient(129deg, #d10a42 0%, #0041ca 100%);
-$base-button-gradient: linear-gradient(151deg, #ed0233 0%, #003eb7 100%);
-$base-background-gradient: linear-gradient(90deg, #1c3477 0%, #1c3477 0.01%, #1a3578 39.11%, #73184b 75.5%, #b4022a 100%);
+$base-button-gradient: linear-gradient(90deg, #ed0233 0%, #003eb7 100%);
+$base-border-gradient: linear-gradient(151deg, #ed0233 0%, #003eb7 100%);
+$base-background-gradient: linear-gradient(90deg, #1c3477 0%, #1a3578 39%, #73184b 76%, #b4022a 100%);
 
 $mobile-width: 320px;
 $tablet-width: 768px;
